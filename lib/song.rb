@@ -29,14 +29,15 @@ class Song
 
      genre_hash = {}
     @@genres.each do |a|
-      binding.pry
+      #binding.pry
       
       if genre_hash[a]
         genre_hash[a] += 1
       else
          genre_hash[a] = 1
-
+      end 
     end
+    genre_hash
    end
 
 
