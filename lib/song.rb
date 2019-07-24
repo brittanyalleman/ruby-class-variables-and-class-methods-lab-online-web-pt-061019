@@ -30,7 +30,7 @@ class Song
      genre_hash = {}
     @@genres.each do |a|
       binding.pry
-      genre_hash[a] = 0
+      genre_hash[a] = 1
     end
    end
 
